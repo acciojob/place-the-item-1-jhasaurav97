@@ -1,2 +1,24 @@
 
 /* Your CSS Code here. */
+.holder{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.item{
+	font-size: 3rem;
+	width: 100px;
+	height: 100px;
+}
+.red{
+	order: 2;
+	background-color: red;
+}
+.blue{
+	order: 3;
+	background-color: blue;
+}
+.green{
+	order: 1;
+	background-color: green;
+}
